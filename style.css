@@ -1,0 +1,347 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+
+    font-size: 1.6rem;
+
+}
+
+h1 {
+    font-size: 3rem;
+
+}
+
+.nav-cont {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: center;
+    color: #B9AEA0;
+}
+
+.nav-cont a {
+    color: #B9AEA0;
+}
+
+.nav-cont a:hover {
+    color: #986A34;
+}
+
+.nav-section {
+    background-color: #3C2B18
+}
+
+header {
+    font-size: 2rem;
+}
+
+.carousel-item {
+    position: relative;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.carousel-img-one {
+    background-image: url('img/Szklarnia_T0.jpg');
+}
+
+.carousel-img-two {
+    background-image: url('img/Szklarnia_T1.jpg');
+}
+
+.carousel-img-three {
+    background-image: url('img/Szklarnia_T2.jpg');
+}
+
+
+.main-box {
+    font-size: 2rem;
+
+
+}
+
+.s1 {
+
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+.s2 {
+
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.s3 {
+
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.napisy-color {}
+
+.napisy-szerokosc {
+    background-color: #3C2B18;
+    color: #B9AEA0;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.t1 {
+    background-image: url('img/Passatem.png');
+    position: relative;
+
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.t2 {
+
+    color: #3C2B18;
+
+    align-self: center;
+
+}
+
+.napis2-st {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+footer {
+    background-color: #3C2B18;
+    color: #B9AEA0;
+
+
+
+}
+
+.f1 {
+    height: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.f2 {
+    height: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+/* styl dla wyprawy.html */
+
+.wyprawy-header {
+    background-image: url('img/Szklarnia_T1.jpg');
+    position: relative;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.box1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: flex-start;
+
+}
+
+.karta {
+    background-color: #3C2B18;
+    color: #B9AEA0;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    align-content: flex-start;
+
+
+}
+
+/* styl kontaktu */
+
+.zacheta {}
+
+.form1 {
+
+    border: 2px solid #3C2B18;
+    border-radius: 4px;
+    color: #3C2B18;
+
+}
+
+
+.btn-wlasny {
+    font-size: 2rem;
+    background-color: #3C2B18;
+
+}
+
+.btn-wlasny:hover {
+    background-color: #986A34;
+}
+
+
+
+.check-wlasny:checked {
+    background-color: #3C2B18;
+    color: #B9AEA0;
+
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #3C2B18;
+    border-radius: 4px;
+    background-color: #B9AEA0;
+    font-size: 16px;
+    resize: none;
+    color: #3C2B18;
+
+}
+
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #3C2B18;
+    border-radius: 4px;
+    background-color: #B9AEA0;
+    font-size: 16px;
+    resize: none;
+    color: #3C2B18;
+}
+
+/* mapka */
+
+.mapagoogle2{
+    display: none;
+    font-size: 6rem;
+}
+
+
+
+
+
+@media (max-width: 678px) {
+
+    .nav-cont {
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: stretch;
+        align-content: center;
+
+
+
+    }
+
+
+
+
+
+
+    .carousel-img-one {
+        background-image: url('img/Szklarnia_T0L.jpg');
+    }
+
+    .carousel-img-two {
+        background-image: url('img/Szklarnia_T1L.jpg');
+    }
+
+    .carousel-img-three {
+        background-image: url('img/Szklarnia_T2L.jpg');
+    }
+
+    .f1 {
+        height: 100%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .f2 {
+        height: 100%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .wyprawy-header {
+        background-image: url('img/Szklarnia_T1L.jpg');
+        position: relative;
+        height: 200px;
+        background-position: center;
+        background-size: cover;
+
+    }
+
+        .mapagoogle{
+       display: none;
+    }
+
+   .mapagoogle2{
+       display: block;
+   }
+
+
+ 
+
+
+}
+
